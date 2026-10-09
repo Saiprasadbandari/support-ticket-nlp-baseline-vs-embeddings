@@ -1,0 +1,25 @@
+{
+  "approach": "tfidf_logreg_baseline",
+  "feature_method": "TfidfVectorizer",
+  "classifier": "LogisticRegression",
+  "random_state": 42,
+  "test_size": 0.2,
+  "default": {
+    "train_time_s": 0.05803799629211426,
+    "infer_latency_ms_per_sample": 0.001034040129586552,
+    "macro_f1": 0.7692925050681361,
+    "weighted_f1": 0.8185833928834285,
+    "accuracy": 0.8277153558052435
+  },
+  "balanced": {
+    "train_time_s": 0.04304099082946777,
+    "infer_latency_ms_per_sample": 0.0006482842263211025,
+    "macro_f1": 0.8659336396316084,
+    "weighted_f1": 0.8588888543118517,
+    "accuracy": 0.8614232209737828
+  },
+  "cost": {
+    "vocab_size": 1445,
+    "vectorize_time_s": 0.016884803771972656
+  }
+}
