@@ -1,0 +1,28 @@
+{
+  "approach": "transformer_embeddings_logreg",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "classifier": "LogisticRegression",
+  "random_state": 42,
+  "test_size": 0.2,
+  "default": {
+    "train_time_s": 0.02719712257385254,
+    "infer_latency_ms_per_sample": 0.0008197312944390801,
+    "macro_f1": 0.8291007867911098,
+    "weighted_f1": 0.8653442791907043,
+    "accuracy": 0.8689138576779026
+  },
+  "balanced": {
+    "train_time_s": 0.018464088439941406,
+    "infer_latency_ms_per_sample": 0.0006259603893265742,
+    "macro_f1": 0.8909834989058447,
+    "weighted_f1": 0.8841468733840536,
+    "accuracy": 0.8838951310861424
+  },
+  "cost": {
+    "n_params": 22713216,
+    "embedding_dim": 384,
+    "model_load_time_s": 3.4699490070343018,
+    "embed_time_s": 1.2357831001281738,
+    "memory_mb": 154.625
+  }
+}
